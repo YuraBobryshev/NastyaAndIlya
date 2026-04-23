@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Илья и Настя | Приглашение на свадьбу</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'wedding-light': '#e4e6d9', // Светло-фисташковый фон
+                        'wedding-dark': '#697868',  // Темно-зеленый фон
+                        'wedding-text': '#4a5749',  // Цвет текста на светлом фоне
+                    },
+                    fontFamily: {
+                        'serif': ['"Cormorant Garamond"', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* Плавная прокрутка */
+        html { scroll-behavior: smooth; }
+        body { font-family: 'Cormorant Garamond', serif; }
+    </style>
+</head>
+<body class="bg-gray-900 text-wedding-text antialiased">
+
+    <div class="max-w-md mx-auto bg-wedding-light min-h-screen shadow-2xl overflow-hidden">
+
+        <section class="relative pt-12 pb-8 px-6 text-center">
+            <div class="absolute top-0 left-0 w-full h-full pointer-events-none opacity-50" style="background-image: url('img/lines-bg.svg'); background-size: cover;"></div>
+            
+            <h1 class="text-5xl font-semibold tracking-widest text-wedding-dark mb-6">19.09</h1>
+            
+            <div class="w-48 h-64 mx-auto overflow-hidden bg-gray-300 mb-6 border-4 border-wedding-light shadow-md">
+                <img src="img/main-photo.jpg" alt="Илья и Настя" class="w-full h-full object-cover grayscale">
+            </div>
+            
+            <h2 class="text-4xl font-semibold text-wedding-dark">Илья и Настя</h2>
+        </section>
+
+        <section class="bg-wedding-dark text-wedding-light py-12 px-6 text-center relative">
+            <h3 class="text-3xl font-semibold mb-4 tracking-widest">19.09.2026</h3>
+            <p class="text-lg leading-relaxed mb-8">
+                С радостью приглашаем<br>
+                разделить с нами один из<br>
+                самых важных дней в<br>
+                нашей жизни - день свадьбы!
+            </p>
+
+            <div class="max-w-xs mx-auto">
+                <h4 class="text-2xl font-semibold mb-4 border-b border-wedding-light pb-2 inline-block">Сентябрь</h4>
+                <div class="grid grid-cols-7 gap-2 text-center text-lg">
+                    <div class="font-semibold text-sm">пн</div>
+                    <div class="font-semibold text-sm">вт</div>
+                    <div class="font-semibold text-sm">ср</div>
+                    <div class="font-semibold text-sm">чт</div>
+                    <div class="font-semibold text-sm">пт</div>
+                    <div class="font-semibold text-sm">сб</div>
+                    <div class="font-semibold text-sm text-red-200">вс</div>
+                    <div></div><div></div>
+                    <div>1</div><div>2</div><div>3</div><div>4</div><div>5</div><div>6</div>
+                    <div>7</div><div>8</div><div>9</div><div>10</div><div>11</div><div>12</div><div>13</div>
+                    <div>14</div><div>15</div><div>16</div><div>17</div><div>18</div>
+                    <div class="bg-wedding-light text-wedding-dark rounded-full w-8 h-8 flex items-center justify-center mx-auto font-bold">19</div>
+                    <div>20</div>
+                    <div>21</div><div>22</div><div>23</div><div>24</div><div>25</div><div>26</div><div>27</div>
+                    <div>28</div><div>29</div><div>30</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-wedding-light text-wedding-text py-12 px-6 relative">
+            <h3 class="text-3xl font-semibold mb-8 text-center tracking-widest">План дня</h3>
+            
+            <div class="flex justify-center mb-6">
+                <img src="img/angel-top.png" alt="Ангел" class="w-16 h-16 object-contain opacity-70">
+            </div>
+
+            <div class="relative max-w-sm mx-auto">
+                <div class="absolute left-1/2 transform -translate-x-1/2 w-[1px] bg-wedding-text h-full opacity-40"></div>
+
+                <div class="flex items-center justify-between mb-8 relative">
+                    <div class="w-5/12 text-right pr-4">
+                        <div class="text-2xl font-semibold">14:30</div>
+                        <div class="text-lg">сбор гостей</div>
+                    </div>
+                    <div class="absolute left-1/2 transform -translate-x-1/2 w-2 h-2 bg-wedding-text rounded-full"></div>
+                    <div class="w-5/12 pl-4 flex flex-col items-start">
+                        <img src="img/zags-icon.png" alt="Загс" class="h-10 mb-1 opacity-80">
+                        <div class="text-sm border-b border-wedding-text pb-0.5">Дворец бракосочетания 1</div>
+                    </div>
+                </div>
+
+                <div class="flex items-center justify-between mb-8 relative">
+                    <div class="w-5/12 flex justify-end pr-4">
+                        <img src="img/rings-icon.png" alt="Кольца" class="h-10 opacity-80">
+                    </div>
+                    <div class="absolute left-1/2 transform -translate-x-1/2 w-2 h-2 bg-wedding-text rounded-full"></div>
+                    <div class="w-5/12 pl-4 text-left">
+                        <div class="text-2xl font-semibold">15:00</div>
+                        <div class="text-lg">Церемония</div>
+                    </div>
+                </div>
+
+                <div class="flex items-center justify-between mb-8 relative">
+                    <div class="w-5/12 text-right pr-4">
+                        <div class="text-2xl font-semibold">17:30</div>
+                        <div class="text-lg">сбор гостей</div>
+                    </div>
+                    <div class="absolute left-1/2 transform -translate-x-1/2 w-2 h-2 bg-wedding-text rounded-full"></div>
+                    <div class="w-5/12 pl-4 flex flex-col items-start">
+                        <img src="img/restaurant-icon.png" alt="Ресторан" class="h-10 mb-1 opacity-80">
+                        <div class="text-sm border-b border-wedding-text pb-0.5">Ресторан "Кристалл"</div>
+                    </div>
+                </div>
+
+                <div class="flex items-center justify-between relative">
+                    <div class="w-5/12 flex justify-end pr-4">
+                        <img src="img/glasses-icon.png" alt="Бокалы" class="h-12 opacity-80">
+                    </div>
+                    <div class="absolute left-1/2 transform -translate-x-1/2 w-2 h-2 bg-wedding-text rounded-full"></div>
+                    <div class="w-5/12 pl-4 text-left">
+                        <div class="text-2xl font-semibold">18:00</div>
+                        <div class="text-lg">Банкет</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-wedding-dark text-wedding-light py-12 px-6 text-center relative overflow-hidden">
+            <h3 class="text-3xl font-semibold mb-6 tracking-widest">Дресс-код</h3>
+            
+            <div class="flex justify-between items-start mb-6">
+                <img src="img/lady-silhouette.png" alt="" class="w-12 h-24 object-contain opacity-60">
+                
+                <p class="text-lg leading-relaxed px-4 flex-1 mt-4">
+                    Дорогие гости!<br>
+                    Мы будем рады, если вы<br>
+                    поддержите цветовую<br>
+                    палитру нашего<br>
+                    праздника
+                </p>
+
+                <img src="img/suit-silhouette.png" alt="" class="w-12 h-24 object-contain opacity-60 mt-12">
+            </div>
+
+            <div class="flex justify-center gap-2 mb-8">
+                <div class="w-8 h-20 rounded-full bg-[#d5c3b5] shadow-inner"></div>
+                <div class="w-8 h-20 rounded-full bg-[#cda996] shadow-inner"></div>
+                <div class="w-8 h-20 rounded-full bg-[#5b4236] shadow-inner"></div>
+                <div class="w-8 h-20 rounded-full bg-[#8c9e83] shadow-inner"></div>
+                <div class="w-8 h-20 rounded-full bg-[#52604d] shadow-inner"></div>
+            </div>
+
+            <p class="text-md italic opacity-90 max-w-xs mx-auto">
+                Самое главное, чтобы вы<br>
+                чувствовали себя комфортно и смогли<br>
+                насладиться праздником!
+            </p>
+        </section>
+
+        <section class="bg-wedding-light text-wedding-text py-12 px-8">
+            <h3 class="text-3xl font-semibold mb-8 text-center tracking-widest">Форма для связи</h3>
+            
+            <form id="wedding-form" class="space-y-6 text-lg">
+                <div>
+                    <input type="text" id="name" name="name" placeholder="Имя и Фамилия" required 
+                           class="w-full bg-transparent border-b border-wedding-text pb-1 outline-none placeholder-wedding-text/60 focus:border-wedding-dark transition-colors">
+                </div>
+
+                <div class="pt-2">
+                    <p class="mb-2">1. Присутствие на свадебном ужине:</p>
+                    <label class="flex items-center space-x-2 mb-1 cursor-pointer">
+                        <input type="radio" name="attendance" value="Да, с удовольствием" required class="accent-wedding-dark w-4 h-4">
+                        <span>Да, с удовольствием</span>
+                    </label>
+                    <label class="flex items-center space-x-2 cursor-pointer">
+                        <input type="radio" name="attendance" value="К сожалению, не смогу" class="accent-wedding-dark w-4 h-4">
+                        <span>К сожалению, не смогу</span>
+                    </label>
+                </div>
+
+                <div class="pt-2">
+                    <p class="mb-2">2. Есть ли у вас предпочтения в еде?</p>
+                    <label class="flex items-center space-x-2 mb-1 cursor-pointer">
+                        <input type="radio" name="food" value="Мясо" class="accent-wedding-dark w-4 h-4">
+                        <span>Мясо</span>
+                    </label>
+                    <label class="flex items-center space-x-2 mb-1 cursor-pointer">
+                        <input type="radio" name="food" value="Птица" class="accent-wedding-dark w-4 h-4">
+                        <span>Птица</span>
+                    </label>
+                    <label class="flex items-center space-x-2 cursor-pointer">
+                        <input type="radio" name="food" value="Рыба" class="accent-wedding-dark w-4 h-4">
+                        <span>Рыба</span>
+                    </label>
+                </div>
+
+                <div class="pt-2">
+                    <p class="mb-2">3. Какой напиток вы предпочитаете?</p>
+                    <div class="space-y-1">
+                        <label class="flex items-center space-x-2 cursor-pointer"><input type="checkbox" name="drinks" value="Красное вино (сухое)" class="accent-wedding-dark w-4 h-4"><span>Красное вино (сухое)</span></label>
+                        <label class="flex items-center space-x-2 cursor-pointer"><input type="checkbox" name="drinks" value="Белое вино (полусладкое)" class="accent-wedding-dark w-4 h-4"><span>Белое вино (полусладкое)</span></label>
+                        <label class="flex items-center space-x-2 cursor-pointer"><input type="checkbox" name="drinks" value="Шампанское (полусладкое)" class="accent-wedding-dark w-4 h-4"><span>Шампанское (полусладкое)</span></label>
+                        <label class="flex items-center space-x-2 cursor-pointer"><input type="checkbox" name="drinks" value="Шампанское (сухое)" class="accent-wedding-dark w-4 h-4"><span>Шампанское (сухое)</span></label>
+                        <label class="flex items-center space-x-2 cursor-pointer"><input type="checkbox" name="drinks" value="Крепкий алкоголь" class="accent-wedding-dark w-4 h-4"><span>Крепкий алкоголь</span></label>
+                        <label class="flex items-center space-x-2 cursor-pointer"><input type="checkbox" name="drinks" value="Безалкогольные напитки" class="accent-wedding-dark w-4 h-4"><span>Безалкогольные напитки</span></label>
+                    </div>
+                </div>
+
+                <div class="pt-6 text-center">
+                    <button type="submit" class="border border-wedding-text text-wedding-text py-2 px-12 uppercase tracking-widest hover:bg-wedding-text hover:text-wedding-light transition-colors">Отправить</button>
+                </div>
+            </form>
+        </section>
+
+        <section class="bg-wedding-dark text-wedding-light py-12 px-6 text-center">
+            <h3 class="text-3xl font-semibold mb-6 tracking-widest">Чат для гостей</h3>
+            
+            <div class="flex justify-center mb-6">
+                <img src="img/envelope-icon.png" alt="Конверт" class="h-16 opacity-80">
+            </div>
+
+            <p class="text-lg leading-relaxed mb-8 max-w-xs mx-auto">
+                Присоединяйтесь к нашему чату в Telegram, чтобы не потеряться и быть в курсе всех новостей!
+            </p>
+
+            <a href="ТВОЯ_ССЫЛКА_НА_ЧАТ" target="_blank" class="inline-block border border-wedding-light text-wedding-light py-2 px-8 uppercase tracking-widest hover:bg-wedding-light hover:text-wedding-dark transition-colors mb-12">
+                Присоединиться
+            </a>
+
+            <div class="flex flex-col items-center justify-center">
+                <img src="img/angels-bottom.png" alt="Ангелы" class="h-20 mb-2 opacity-70">
+                <p class="text-2xl font-semibold tracking-widest">Мы ждем вас!</p>
+            </div>
+        </section>
+
+    </div>
+</body>
+</html>
+
+<script>
+    // ВСТАВЬ НОВУЮ ССЫЛКУ ВОТ СЮДА
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzGGsu1NDzsfoIH-ZY0DNAofYCxRU7uFUG16jDQfSy2hdlxEgdHfoRawrmj2ftotuIiIg/exec';
+    const form = document.getElementById('wedding-form');
+
+    form.addEventListener('submit', e => {
+        e.preventDefault();
+        
+        const submitBtn = form.querySelector('button[type="submit"]');
+        const originalBtnText = submitBtn.innerText;
+        submitBtn.innerText = 'ОТПРАВЛЯЕМ...';
+        submitBtn.disabled = true;
+
+        // Собираем данные формы
+        const formData = new FormData(form);
+        
+        // Чекбоксы с напитками нужно склеить в одну строку, иначе отправится только последний
+        const selectedDrinks = Array.from(form.querySelectorAll('input[name="drinks"]:checked'))
+                                    .map(cb => cb.value)
+                                    .join(', ');
+        formData.set('drinks', selectedDrinks);
+
+        // Отправляем простым запросом, который браузеры не блокируют
+        fetch(scriptURL, { 
+            method: 'POST', 
+            body: formData 
+        })
+        .then(response => {
+            alert('Спасибо! Ваш ответ успешно отправлен.');
+            form.reset();
+            submitBtn.innerText = originalBtnText;
+            submitBtn.disabled = false;
+        })
+        .catch(error => {
+            console.error('Ошибка!', error.message);
+            alert('Произошла ошибка при отправке. Попробуйте еще раз или напишите нам в Telegram.');
+            submitBtn.innerText = originalBtnText;
+            submitBtn.disabled = false;
+        });
+    });
+</script>
